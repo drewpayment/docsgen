@@ -1,38 +1,84 @@
-# sv
+# 🚀 sv Documentation Generator
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![Svelte](https://img.shields.io/badge/Svelte-4.0.0-orange?logo=svelte)](https://svelte.dev)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## Creating a project
+✨ A modern documentation generator built with SvelteKit, featuring:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- 🎨 Themeable Markdown rendering
+- 🔍 Full-text search capabilities
+- 🌓 Dark/light mode toggle
+- 📱 Mobile-responsive layout
+- 🧩 Component-driven architecture
 
+## 📋 Table of Contents
+- [Getting Started](#🚀-getting-started)
+- [Development](#🛠️-development)
+- [Deployment](#🚢-deployment)
+- [Contributing](#🤝-contributing)
+- [License](#📄-license)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm 9+
+
+### Installation
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+npx sv create my-docs
+cd my-docs
+npm install
 ```
 
-## Developing
+## 🛠️ Development
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+Start your dev server with hot reload:
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# Or launch with browser auto-open
 npm run dev -- --open
 ```
 
-## Building
+Project structure:
+```
+📁 my-docs/
+├── 📁 src/              # Source files
+├── 📁 static/           # Static assets
+├── 📄 svelte.config.js  # Build config
+└── 📄 package.json      # Dependencies
+```
 
-To create a production version of your app:
+## 🚢 Deployment
 
+1. Build production assets:
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+2. Preview production build:
+```bash
+npm run preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+3. Deploy using your preferred adapter:
+```bash
+npm install @sveltejs/adapter-static
+```
+
+## 🤝 Contributing
+
+We 💛 community contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Code style guidelines
+- Issue reporting process
+- Pull request workflow
+
+## 📄 License
+
+MIT © 2025 [Your Name Here](https://github.com/yourusername)
+
+---
+
+🐛 Found an issue? [Let us know!](https://github.com/yourusername/sv/issues)

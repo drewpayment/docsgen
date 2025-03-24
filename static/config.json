@@ -1,0 +1,15 @@
+{
+  "docsRenderType": "local",
+  "docsBaseUrl": "/docs",
+  "title": "",
+  "content": [
+    {
+      "title": "Getting Started",
+      "path": "getting-started",
+      "children": [
+        { "title": "Introduction", "path": "introduction" },
+        { "title": "Installation", "path": "installation" }
+      ]
+    }
+  ]
+}

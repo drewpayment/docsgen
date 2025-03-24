@@ -1,0 +1,10 @@
+import { docsConfig } from '$lib/stores/docs';
+import { get } from 'svelte/store';
+
+
+export const load = async () => {
+  const config = get(docsConfig);
+  return {
+    config,
+  };
+};
